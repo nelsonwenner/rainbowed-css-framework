@@ -1,0 +1,24 @@
+{
+  "name": "myrainbow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonwenner/myrainbow-css-framework.git"
+  },
+  "author": "Nelson Wenner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nelsonwenner/myrainbow-css-framework/issues"
+  },
+  "homepage": "https://github.com/nelsonwenner/myrainbow-css-framework#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
