@@ -428,7 +428,8 @@ html {
 
 .responsive-video embed,
 .responsive-video iframe,
-.responsive-video object {
+.responsive-video object,
+.responsive-video video {
   position: absolute;
   top: 0;
   left: 0;

@@ -1,6 +1,6 @@
 {
   "name": "rainbowed",
-  "version": "1.0.4",
+  "version": "1.2.4",
   "description": "",
   "main": "./dist/css/rainbowed.min.css",
   "style": "dist/css/rainbowed.min.css",
