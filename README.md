@@ -4,7 +4,7 @@
 
 #### The rainbowed is a simple colored css structure that is recommended to be used while you are learning something and you are too lazy to model your components or create prototypes.
 
-### Getting Started
+## :information_source: Getting Started
 
 Npm
 ```bash
@@ -27,4 +27,7 @@ Build
 ```bash
 $ gulp build
 ```
+## :memo: License
+This project is under the MIT license. See the [LICENSE](LICENSE.md) for more information.
+
 ---

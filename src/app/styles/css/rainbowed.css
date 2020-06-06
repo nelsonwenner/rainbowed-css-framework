@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 
-/* static font-size Document */
+/* Static font-size Document */
 html {
   font-size: 10px;
 }
@@ -401,6 +401,7 @@ html {
   }
 }
 
+/* Hides */
 @media only screen and (max-width:992px) {
   .hide-tablet-down {
     display: none;
