@@ -401,6 +401,22 @@ html {
   }
 }
 
+@media only screen and (max-width:992px) {
+  .hide-tablet-down {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+.hide {
+  display: none;
+}
+
 /* Responsive video */
 .responsive-video {
   position: relative;
@@ -416,5 +432,5 @@ html {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
