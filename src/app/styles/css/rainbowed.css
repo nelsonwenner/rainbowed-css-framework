@@ -472,6 +472,7 @@ html {
 
 .black-btn:hover {
   background-color: #212121;
+  color: #fff;
 }
 
 .green-btn {
@@ -481,6 +482,7 @@ html {
 
 .green-btn:hover {
   background-color: #1fdeb3;
+  color: #fff;
 }
 
 .purple-btn {
@@ -490,6 +492,7 @@ html {
 
 .purple-btn:hover {
   background-color: #7274ff;
+  color: #fff;
 }
 
 button:disabled {
@@ -503,3 +506,4 @@ button:disabled:hover {
   box-shadow: unset;
   background: #c1c1c1
 }
+
