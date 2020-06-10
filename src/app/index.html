@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://unpkg.com/rainbowed" />
+  <link rel="stylesheet" href="/src/app/styles/css/rainbowed.css" />
   <title>myrainbow css framework</title>
   
   <style>
-    .column {
+    .bg-column {
       background-color: #1fdeb3;
       padding: 0.5rem 1px;
       text-align: center;
@@ -23,160 +23,189 @@
 
     .title {
       text-align: center;
+      font-size: 3rem;
     }
-
   </style>
 </head>
 <body>
+  <div class="container">
+    <h3 class="title">Buttons</h3>
+    <div class="type-buttons">
+      <button href="#" class="btn btn-primary btn-black">btn-primary</button>
+      <button href="#" class="btn btn-rounded btn-black">btn-rounded</button>
+      <button href="#" class="btn btn-rounded btn-outlined black-btn">btn-outlined</button>
+    </div>
+
+    <div class="type-buttons">
+      <button href="#" class="btn btn-primary btn-green">btn-primary</button>
+      <button href="#" class="btn btn-rounded btn-green">btn-rounded</button>
+      <button href="#" class="btn btn-rounded btn-outlined green-btn">btn-outlined</button>
+    </div>
+
+    <div class="type-buttons">
+      <button href="#" class="btn btn-primary btn-purple">btn-primary</button>
+      <button href="#" class="btn btn-rounded btn-purple">btn-rounded</button>
+      <button href="#" class="btn btn-rounded btn-outlined purple-btn">btn-outlined</button>
+    </div>
+
+    <h3 class="title">Disabled buttons</h3>
+    <div class="divider"></div>
+
+    <div class="type-buttons">
+      <button href="#" class="btn btn-primary" disabled>btn-primary</button>
+      <button href="#" class="btn btn-rounded" disabled>btn-rounded</button>
+      <button href="#" class="btn btn-rounded btn-outlined" disabled>btn-outlined</button>
+    </div>
+  </div>
   
   <div class="container">
     <h3 class="title">Grid</h3>
     <div class="row">
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         1
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         2
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         3
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         4
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         5
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         6
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         7
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         8
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         9
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         10
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         11
       </div>
-      <div class="column xlarge-1 large-2 medium-3 small-12">
+      <div class="column xlarge-1 large-2 medium-3 small-12 bg-column">
         12
      </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-2 medium-4 small-12">
+      <div class="column xlarge-2 medium-4 small-12 bg-column">
         2 columns
       </div>
-      <div class="column xlarge-2 medium-4 small-12">
+      <div class="column xlarge-2 medium-4 small-12 bg-column">
         2 columns
       </div>
-      <div class="column xlarge-2 medium-4 small-12">
+      <div class="column xlarge-2 medium-4 small-12 bg-column">
         2 columns
       </div>
-      <div class="column xlarge-2 medium-4 small-12">
+      <div class="column xlarge-2 medium-4 small-12 bg-column">
         2 columns
       </div>
-      <div class="column xlarge-2 medium-4 small-12">
+      <div class="column xlarge-2 medium-4 small-12 bg-column">
         2 columns
       </div>
-      <div class="column xlarge-2 medium-4 small-12">
+      <div class="column xlarge-2 medium-4 small-12 bg-column">
         2 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-3 medium-6 small-12">
+      <div class="column xlarge-3 medium-6 small-12 bg-column">
         3 columns
       </div>
-      <div class="column xlarge-3 medium-6 small-12">
+      <div class="column xlarge-3 medium-6 small-12 bg-column">
         3 columns
       </div>
-      <div class="column xlarge-3 medium-6 small-12">
+      <div class="column xlarge-3 medium-6 small-12 bg-column">
         3 columns
       </div>
-      <div class="column xlarge-3 medium-6 small-12">
+      <div class="column xlarge-3 medium-6 small-12 bg-column">
         3 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-4 small-12">
+      <div class="column xlarge-4 small-12 bg-column">
         4 columns
       </div>
-      <div class="column xlarge-4 small-12">
+      <div class="column xlarge-4 small-12 bg-column">
         4 columns
       </div>
-      <div class="column xlarge-4 small-12">
+      <div class="column xlarge-4 small-12 bg-column">
         4 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-5 small-12">
+      <div class="column xlarge-5 small-12 bg-column">
         5 columns
       </div>
-      <div class="column xlarge-7 small-12">
+      <div class="column xlarge-7 small-12 bg-column">
         7 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-6 small-12">
+      <div class="column xlarge-6 small-12 bg-column">
         6 columns
       </div>
-      <div class="column xlarge-6 small-12">
+      <div class="column xlarge-6 small-12 bg-column">
         6 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-7 small-12">
+      <div class="column xlarge-7 small-12 bg-column">
         7 columns
       </div>
-      <div class="column xlarge-5 small-12">
+      <div class="column xlarge-5 small-12 bg-column">
         5 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-8 small-12">
+      <div class="column xlarge-8 small-12 bg-column">
         8 columns
       </div>
-      <div class="column xlarge-4 small-12">
+      <div class="column xlarge-4 small-12 bg-column">
         4 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-9 small-12">
+      <div class="column xlarge-9 small-12 bg-column">
         9 columns
       </div>
-      <div class="column xlarge-3 small-12">
+      <div class="column xlarge-3 small-12 bg-column">
         3 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-10 small-12">
+      <div class="column xlarge-10 small-12 bg-column">
         10 columns
       </div>
-      <div class="column xlarge-2 small-12">
+      <div class="column xlarge-2 small-12 bg-column">
         2 columns
       </div>
     </div>
 
     <div class="row">
-      <div class="column xlarge-11 small-12">
+      <div class="column xlarge-11 small-12 bg-column">
         11 columns
       </div>
-      <div class="column xlarge-1 small-12">
+      <div class="column xlarge-1 small-12 bg-column">
         1 column
       </div>
     </div>
