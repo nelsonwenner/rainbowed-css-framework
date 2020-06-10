@@ -438,6 +438,10 @@ html {
 }
 
 /* Buttons */
+button {
+  border: none;
+}
+
 .btn {
   padding: 1rem 1.5rem;
   color: #fff;
@@ -470,6 +474,11 @@ html {
   color: #212121;
 }
 
+.btn-black {
+  border-color: #212121;
+  background-color: #212121;
+}
+
 .black-btn:hover {
   background-color: #212121;
   color: #fff;
@@ -480,6 +489,12 @@ html {
   color: #1fdeb3;
 }
 
+.btn-green {
+  border-color: #1fdeb3;
+  background-color: #1fdeb3;
+  color: #fff;
+}
+
 .green-btn:hover {
   background-color: #1fdeb3;
   color: #fff;
@@ -488,6 +503,12 @@ html {
 .purple-btn {
   border-color: #7274ff;
   color: #7274ff;
+}
+
+.btn-purple {
+  border-color: #7274ff;
+  background-color: #7274ff;
+  color: #fff;
 }
 
 .purple-btn:hover {
