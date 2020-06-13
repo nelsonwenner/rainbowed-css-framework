@@ -68,12 +68,6 @@ html {
 }
 
 /* System grid */
-.container .row,
-.small-container .row {
-  margin-left: -0.75rem;
-  margin-right: -0.75rem;
-}
-
 .row {
   margin-bottom: 0.5rem;
   margin-left: auto;
