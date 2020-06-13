@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Import the fonts used */
-@import url('https://use.fontawesome.com/releases/v5.7.0/css/all.css');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* Basic reset */
 * {
@@ -519,12 +519,12 @@ button {
 button:disabled {
   opacity: .8;
   color: #fff;
-  border: unset
+  border: unset;
 }
 
 button:disabled,
 button:disabled:hover {
   box-shadow: unset;
-  background: #c1c1c1
+  background: #c1c1c1;
 }
 
