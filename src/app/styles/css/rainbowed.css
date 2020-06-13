@@ -87,7 +87,6 @@ html {
 }
 
 .row .column {
-  padding: 0 .75rem;
   min-height: 1px;
   float: left;
 }
