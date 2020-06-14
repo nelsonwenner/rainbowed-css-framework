@@ -75,328 +75,369 @@ html {
 }
 
 .row {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 0.5rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .row .column {
-  min-height: 1px;
-  float: left;
+  flex: 1 0 0%;
+  min-width: 0;
 }
 
 .row .column.small-1 {
-  width: 8.3333333333%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 8.333333%;
 }
 
 .row .column.small-2 {
-  width: 16.6666666667%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 16.666667%;
 }
 
 .row .column.small-3 {
+  flex: 0 0 auto;
   width: 25%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
 }
 
 .row .column.small-4 {
-  width: 33.3333333333%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 33.333333%;
 }
 
 .row .column.small-5 {
-  width: 41.6666666667%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 41.666667%;
 }
 
 .row .column.small-6 {
+  flex: 0 0 auto;
   width: 50%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
 }
 
 .row .column.small-7 {
-  width: 58.3333333333%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 58.333333%;
 }
 
 .row .column.small-8 {
-  width: 66.6666666667%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 66.666667%;
 }
 
 .row .column.small-9 {
+  flex: 0 0 auto;
   width: 75%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
 }
 
 .row .column.small-10 {
-  width: 83.3333333333%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 83.333333%;
 }
 
 .row .column.small-11 {
-  width: 91.6666666667%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+  flex: 0 0 auto;
+  width: 91.666667%;
 }
 
 .row .column.small-12 {
+  flex: 0 0 auto;
   width: 100%;
-  margin-left: auto;
-  left: auto;
-  right: auto;
+}
+
+.row .column.offset-small-1 {
+  margin-left: 8.333333%;
+}
+
+.row .column.offset-small-2 {
+  margin-left: 16.666667%;
+}
+
+.row .column.offset-small-3 {
+  margin-left: 25%;
+}
+
+.row .column.offset-small-4 {
+  margin-left: 33.333333%;
+}
+
+.row .column.offset-small-5 {
+  margin-left: 41.666667%;
+}
+
+.row .column.offset-small-6 {
+  margin-left: 50%;
+}
+
+.row .column.offset-small-7 {
+  margin-left: 58.333333%;
+}
+
+.row .column.offset-small-8 {
+  margin-left: 66.666667%;
+}
+
+.row .column.offset-small-9 {
+  margin-left: 75%;
+}
+
+.row .column.offset-small-10 {
+  margin-left: 83.333333%;
+}
+
+.row .column.offset-small-11 {
+  margin-left: 91.666667%;
 }
 
 @media only screen and (min-width:601px) {
   .row .column.medium-1 {
-    width: 8.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 8.333333%;
   }
   .row .column.medium-2 {
-    width: 16.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 16.666667%;
   }
   .row .column.medium-3 {
+    flex: 0 0 auto;
     width: 25%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.medium-4 {
-    width: 33.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 33.333333%;
   }
   .row .column.medium-5 {
-    width: 41.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 41.666667%;
   }
   .row .column.medium-6 {
+    flex: 0 0 auto;
     width: 50%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.medium-7 {
-    width: 58.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 58.333333%;
   }
   .row .column.medium-8 {
-    width: 66.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 66.666667%;
   }
   .row .column.medium-9 {
+    flex: 0 0 auto;
     width: 75%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.medium-10 {
-    width: 83.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 83.333333%;
   }
   .row .column.medium-11 {
-    width: 91.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 91.666667%;
   }
   .row .column.medium-12 {
+    flex: 0 0 auto;
     width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+  }
+  .row .column.offset-medium-1 {
+    margin-left: 8.333333%;
+  }
+  .row .column.offset-medium-2 {
+    margin-left: 16.666667%;
+  }
+  .row .column.offset-medium-3 {
+    margin-left: 25%;
+  }
+  .row .column.offset-medium-4 {
+    margin-left: 33.333333%;
+  }
+  .row .column.offset-medium-5 {
+    margin-left: 41.666667%;
+  }
+  .row .column.offset-medium-6 {
+    margin-left: 50%;
+  }
+  .row .column.offset-medium-7 {
+    margin-left: 58.333333%;
+  }
+  .row .column.offset-medium-8 {
+    margin-left: 66.666667%;
+  }
+  .row .column.offset-medium-9 {
+    margin-left: 75%;
+  }
+  .row .column.offset-medium-10 {
+    margin-left: 83.333333%;
+  }
+  .row .column.offset-medium-11 {
+    margin-left: 91.666667%;
   }
 }
 
 @media only screen and (min-width:993px) {
   .row .column.large-1 {
-    width: 8.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 8.333333%;
   }
   .row .column.large-2 {
-    width: 16.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 16.666667%;
   }
   .row .column.large-3 {
+    flex: 0 0 auto;
     width: 25%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.large-4 {
-    width: 33.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 33.333333%;
   }
   .row .column.large-5 {
-    width: 41.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 41.666667%;
   }
   .row .column.large-6 {
+    flex: 0 0 auto;
     width: 50%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.large-7 {
-    width: 58.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 58.333333%;
   }
   .row .column.large-8 {
-    width: 66.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 66.666667%;
   }
   .row .column.large-9 {
+    flex: 0 0 auto;
     width: 75%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.large-10 {
-    width: 83.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 83.333333%;
   }
   .row .column.large-11 {
-    width: 91.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+    flex: 0 0 auto;
+    width: 91.666667%;
   }
   .row .column.large-12 {
+    flex: 0 0 auto;
     width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+  }
+  .row .column.offset-large-1 {
+    margin-left: 8.333333%;
+  }
+  .row .column.offset-large-2 {
+    margin-left: 16.666667%;
+  }
+  .row .column.offset-large-3 {
+    margin-left: 25%;
+  }
+  .row .column.offset-large-4 {
+    margin-left: 33.333333%;
+  }
+  .row .column.offset-large-5 {
+    margin-left: 41.666667%;
+  }
+  .row .column.offset-large-6 {
+    margin-left: 50%;
+  }
+  .row .column.offset-large-7 {
+    margin-left: 58.333333%;
+  }
+  .row .column.offset-large-8 {
+    margin-left: 66.666667%;
+  }
+  .row .column.offset-large-9 {
+    margin-left: 75%;
+  }
+  .row .column.offset-large-10 {
+    margin-left: 83.333333%;
+  }
+  .row .column.offset-large-11 {
+    margin-left: 91.666667%;
   }
 }
 
 @media only screen and (min-width:1201px) {
   .row .column.xlarge-1 {
+    flex: 0 0 auto;
     width: 8.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-2 {
+    flex: 0 0 auto;
     width: 16.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-3 {
+    flex: 0 0 auto;
     width: 25%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-4 {
+    flex: 0 0 auto;
     width: 33.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-5 {
+    flex: 0 0 auto;
     width: 41.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-6 {
+    flex: 0 0 auto;
     width: 50%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-7 {
+    flex: 0 0 auto;
     width: 58.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-8 {
+    flex: 0 0 auto;
     width: 66.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-9 {
+    flex: 0 0 auto;
     width: 75%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-10 {
+    flex: 0 0 auto;
     width: 83.3333333333%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-11 {
+    flex: 0 0 auto;
     width: 91.6666666667%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
   }
   .row .column.xlarge-12 {
+    flex: 0 0 auto;
     width: 100%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
+  }
+  .row .column.offset-xlarge-1 {
+    margin-left: 8.333333%;
+  }
+  .row .column.offset-xlarge-2 {
+    margin-left: 16.666667%;
+  }
+  .row .column.offset-xlarge-3 {
+    margin-left: 25%;
+  }
+  .row .column.offset-xlarge-4 {
+    margin-left: 33.333333%;
+  }
+  .row .column.offset-xlarge-5 {
+    margin-left: 41.666667%;
+  }
+  .row .column.offset-xlarge-6 {
+    margin-left: 50%;
+  }
+  .row .column.offset-xlarge-7 {
+    margin-left: 58.333333%;
+  }
+  .row .column.offset-xlarge-8 {
+    margin-left: 66.666667%;
+  }
+  .row .column.offset-xlarge-9 {
+    margin-left: 75%;
+  }
+  .row .column.offset-xlarge-10 {
+    margin-left: 83.333333%;
+  }
+  .row .column.offset-xlarge-11 {
+    margin-left: 91.666667%;
   }
 }
 
@@ -526,4 +567,3 @@ button:disabled:hover {
   box-shadow: unset;
   background: #c1c1c1;
 }
-
